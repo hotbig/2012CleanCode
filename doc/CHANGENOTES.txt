@@ -1,0 +1,21 @@
+Not Changed
+- User Interface, such options, env names.
+
+Main Changes:
+- Split XXXX into several MINI module
+|- svn,     interact with svn command.
+|- file,    interact with file comamnd
+|- sys,     call to system,exit 
+|- dbg.h    debug macro
+|- status.h status enum
+
+- Minimum Mock system. (Injected in CPP phase)
+|- system,  catch the system output
+|- exit,    nothing to do
+|- tmpnam,  use master.icl as default
+|- fopen,   open the file stream
+|- fclose,  close the stream
+|- printf,  nothing to do
+
+- Unit test
+|- test suite for usage 1/2/3
