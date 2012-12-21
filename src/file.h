@@ -19,26 +19,6 @@
 #include "status.h"
 /**
 *******************************************************************************
-* @def    Global definition to cross platfrom
-* 
-* @param  slash : File system directory slash
-* @param  delete: Shell command to delete file.
-* @param  copy:   Shell command to copy file.
-******************************************************************************/
-#if defined(UNIX) || defined(__CYGWIN__)
-static const char slash[]  = "/";
-static const char delete[] = "rm -f";
-static const char copy[]   = "cp";
-static const char null[]   = "> /dev/null 2<&1";
-#else
-static const char slash[]  = "\\";
-static const char delete[] = "del";
-static const char copy[]   = "copy";
-static const char null[]   = "> /dev/null 2<&1";
-#endif
-
-/**
-*******************************************************************************
 *  @brief           Delete speficy file from file system.
 *  @param           file: file path and file name
 *  @return          return value: FAIL or SUCCESS
