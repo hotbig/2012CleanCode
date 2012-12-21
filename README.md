@@ -17,15 +17,30 @@ How to
     - Read the code and understand the current design by top-down
     - Let’s look the following codes. (Sample code is not attached)
 4.	High Level Design
-    o   Stratification
-    o	Portability
-    o	Extensibility
-    o	Testability
-    o	Reusability 
-    o	Standard technique
-    o	…
+    - Stratification
+    - Portability
+    - Extensibility
+    - Testability
+    - Reusability 
+    - Standard technique
+    - …
 
 5.	Abstract Data 
+    - Streamline parameters passing
+    - Model real-world objects
+    - Reduce the change effects
 6.	Function
+    - Reduce Complexity
+    - Make a section more readable
+    - Avoid duplicate code
+    - Hide Sequence
+    - Do one thing
+
 7.	Good style and formats
+    - Code Line Length < 80
+    - Function name
+    - Variable name
+    - Doxygen comment 
+    - Directory Tree
+    - Layout
 
