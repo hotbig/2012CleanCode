@@ -1,7 +1,7 @@
 2012 Clean Code Contest
 =============
 
-The repo is created to hold part of the sample code of 2012 Clean Code contest. 
+The repo is created to share part of sample code of 2012 Clean Code contest. 
 
 How to
 =============
@@ -24,7 +24,6 @@ How to
     - Reusability 
     - Standard technique
     - …
-
 5.	Abstract Data 
     - Streamline parameters passing
     - Model real-world objects
@@ -35,7 +34,6 @@ How to
     - Avoid duplicate code
     - Hide Sequence
     - Do one thing
-
 7.	Good style and formats
     - Code Line Length < 80
     - Function name
